@@ -18,6 +18,26 @@
         </section>
 
         <!--Aquí iniciaremos nuestro formulario en el siguiente paso-->
+        <section>
+            <h2>Detalles del Reporte</h2>
+
+            <form action="#" method="post">
+                <!-- Campo de texto basico -->
+                 <label for="nombreCompleto">Nombre del Aprendiz</label>
+                 <input type="text" id="nombreCompleto" name="nombreCompleto" required>
+                 <br><br>
+
+                 <!-- Lista Desplegable (combobox) -->
+                  <label for="tipoNovedad">Tipo Novedad</label>
+                  <select name="tipoNovedad" id="tipoNovedad" required>
+                    <option value="">Seleccione una categoria...</option>
+                    <option value="hardware">Daño en equipo de cómputo</option>
+                    <option value="software">Falla de software o red</option>
+                    <option value="infraestructura">Daño en mobiliario o electricidad</option>
+                  </select>
+                  <br><br>
+            </form>
+        </section>
     </main>
 </body>
 </html>
